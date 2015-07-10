@@ -15,7 +15,7 @@ class Prettylittlething_Specialsubscription_Model_Specialsubscription extends Ma
     public function savetotable($contact)
     {
     	
-    	echo "here2";
+    	echo " we are here2";
         $model=Mage::getResourceModel('prettylittlething_specialsubscription/Specialsubscription');
 		var_dump($model);
         $count=$model->save($contact);
